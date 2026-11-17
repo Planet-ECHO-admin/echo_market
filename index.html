@@ -57,6 +57,14 @@ a{color:inherit}
   radial-gradient(circle 30px at 210px 0,#9B8CFF 29px,transparent 30px) 0 0/300px 14px repeat-x,
   radial-gradient(circle 30px at 270px 0,#4DA8FF 29px,transparent 30px) 0 0/300px 14px repeat-x}
 .hero{padding:56px 0 40px}
+.hero{position:relative}
+.qr{position:absolute;top:56px;right:0;width:168px;padding:12px 12px 10px;background:#fff;border:1px solid var(--line);border-radius:14px;text-align:center;text-decoration:none;color:#0F1923;box-shadow:0 6px 20px rgba(15,25,35,.12)}
+.qr svg{display:block;width:100%;height:auto}
+.qr span{display:block;margin-top:8px;font-size:13px;font-weight:700;line-height:1.3}
+@media (max-width:900px){.qr{display:none}}
+.hero h1,.hero p.lead,.hero p.by,.notice{max-width:min(720px,calc(100% - 200px))}
+@media (max-width:900px){.hero h1,.hero p.lead,.hero p.by,.notice{max-width:none}}
+
 .hero h1{font-family:var(--display);font-weight:400;font-size:clamp(44px,8vw,96px);line-height:1;margin:0 0 20px;letter-spacing:-.01em}
 .hero h1 span{display:block}
 .hero p.lead{font-size:clamp(17px,2vw,20px);max-width:62ch;color:var(--ink-2);margin:0 0 8px}
@@ -132,6 +140,7 @@ footer{padding:28px 0 40px;font-size:14px;color:var(--ink-2);border-top:1px soli
 
 <main class="wrap">
   <section class="hero">
+    <a class="qr" href="https://planet-echo-admin.github.io/echo_market/" target="_blank" rel="noopener"><svg viewBox="-2 -2 37 37" role="img" aria-label="QR code: planet-echo-admin.github.io/echo_market" shape-rendering="crispEdges"><rect x="-2" y="-2" width="37" height="37" fill="#fff"/><path d="M0,0h1v1h-1zM1,0h1v1h-1zM2,0h1v1h-1zM3,0h1v1h-1zM4,0h1v1h-1zM5,0h1v1h-1zM6,0h1v1h-1zM8,0h1v1h-1zM14,0h1v1h-1zM15,0h1v1h-1zM16,0h1v1h-1zM17,0h1v1h-1zM18,0h1v1h-1zM21,0h1v1h-1zM22,0h1v1h-1zM23,0h1v1h-1zM26,0h1v1h-1zM27,0h1v1h-1zM28,0h1v1h-1zM29,0h1v1h-1zM30,0h1v1h-1zM31,0h1v1h-1zM32,0h1v1h-1zM0,1h1v1h-1zM6,1h1v1h-1zM9,1h1v1h-1zM10,1h1v1h-1zM12,1h1v1h-1zM17,1h1v1h-1zM19,1h1v1h-1zM21,1h1v1h-1zM26,1h1v1h-1zM32,1h1v1h-1zM0,2h1v1h-1zM2,2h1v1h-1zM3,2h1v1h-1zM4,2h1v1h-1zM6,2h1v1h-1zM10,2h1v1h-1zM13,2h1v1h-1zM15,2h1v1h-1zM21,2h1v1h-1zM23,2h1v1h-1zM24,2h1v1h-1zM26,2h1v1h-1zM28,2h1v1h-1zM29,2h1v1h-1zM30,2h1v1h-1zM32,2h1v1h-1zM0,3h1v1h-1zM2,3h1v1h-1zM3,3h1v1h-1zM4,3h1v1h-1zM6,3h1v1h-1zM8,3h1v1h-1zM10,3h1v1h-1zM14,3h1v1h-1zM15,3h1v1h-1zM17,3h1v1h-1zM18,3h1v1h-1zM20,3h1v1h-1zM23,3h1v1h-1zM26,3h1v1h-1zM28,3h1v1h-1zM29,3h1v1h-1zM30,3h1v1h-1zM32,3h1v1h-1zM0,4h1v1h-1zM2,4h1v1h-1zM3,4h1v1h-1zM4,4h1v1h-1zM6,4h1v1h-1zM8,4h1v1h-1zM10,4h1v1h-1zM12,4h1v1h-1zM14,4h1v1h-1zM18,4h1v1h-1zM19,4h1v1h-1zM20,4h1v1h-1zM23,4h1v1h-1zM26,4h1v1h-1zM28,4h1v1h-1zM29,4h1v1h-1zM30,4h1v1h-1zM32,4h1v1h-1zM0,5h1v1h-1zM6,5h1v1h-1zM8,5h1v1h-1zM9,5h1v1h-1zM12,5h1v1h-1zM13,5h1v1h-1zM14,5h1v1h-1zM16,5h1v1h-1zM19,5h1v1h-1zM22,5h1v1h-1zM24,5h1v1h-1zM26,5h1v1h-1zM32,5h1v1h-1zM0,6h1v1h-1zM1,6h1v1h-1zM2,6h1v1h-1zM3,6h1v1h-1zM4,6h1v1h-1zM5,6h1v1h-1zM6,6h1v1h-1zM8,6h1v1h-1zM10,6h1v1h-1zM12,6h1v1h-1zM14,6h1v1h-1zM16,6h1v1h-1zM18,6h1v1h-1zM20,6h1v1h-1zM22,6h1v1h-1zM24,6h1v1h-1zM26,6h1v1h-1zM27,6h1v1h-1zM28,6h1v1h-1zM29,6h1v1h-1zM30,6h1v1h-1zM31,6h1v1h-1zM32,6h1v1h-1zM8,7h1v1h-1zM11,7h1v1h-1zM12,7h1v1h-1zM15,7h1v1h-1zM16,7h1v1h-1zM17,7h1v1h-1zM21,7h1v1h-1zM22,7h1v1h-1zM0,8h1v1h-1zM4,8h1v1h-1zM6,8h1v1h-1zM7,8h1v1h-1zM8,8h1v1h-1zM10,8h1v1h-1zM16,8h1v1h-1zM17,8h1v1h-1zM19,8h1v1h-1zM20,8h1v1h-1zM21,8h1v1h-1zM24,8h1v1h-1zM25,8h1v1h-1zM26,8h1v1h-1zM27,8h1v1h-1zM28,8h1v1h-1zM29,8h1v1h-1zM32,8h1v1h-1zM3,9h1v1h-1zM5,9h1v1h-1zM8,9h1v1h-1zM13,9h1v1h-1zM15,9h1v1h-1zM16,9h1v1h-1zM18,9h1v1h-1zM23,9h1v1h-1zM25,9h1v1h-1zM29,9h1v1h-1zM30,9h1v1h-1zM31,9h1v1h-1zM6,10h1v1h-1zM7,10h1v1h-1zM10,10h1v1h-1zM12,10h1v1h-1zM15,10h1v1h-1zM17,10h1v1h-1zM20,10h1v1h-1zM21,10h1v1h-1zM23,10h1v1h-1zM26,10h1v1h-1zM29,10h1v1h-1zM31,10h1v1h-1zM1,11h1v1h-1zM2,11h1v1h-1zM3,11h1v1h-1zM4,11h1v1h-1zM5,11h1v1h-1zM7,11h1v1h-1zM9,11h1v1h-1zM14,11h1v1h-1zM15,11h1v1h-1zM16,11h1v1h-1zM17,11h1v1h-1zM18,11h1v1h-1zM20,11h1v1h-1zM21,11h1v1h-1zM24,11h1v1h-1zM32,11h1v1h-1zM2,12h1v1h-1zM4,12h1v1h-1zM6,12h1v1h-1zM7,12h1v1h-1zM10,12h1v1h-1zM13,12h1v1h-1zM14,12h1v1h-1zM15,12h1v1h-1zM18,12h1v1h-1zM20,12h1v1h-1zM21,12h1v1h-1zM22,12h1v1h-1zM23,12h1v1h-1zM26,12h1v1h-1zM28,12h1v1h-1zM29,12h1v1h-1zM1,13h1v1h-1zM3,13h1v1h-1zM13,13h1v1h-1zM16,13h1v1h-1zM17,13h1v1h-1zM19,13h1v1h-1zM21,13h1v1h-1zM22,13h1v1h-1zM23,13h1v1h-1zM25,13h1v1h-1zM27,13h1v1h-1zM1,14h1v1h-1zM4,14h1v1h-1zM6,14h1v1h-1zM7,14h1v1h-1zM9,14h1v1h-1zM10,14h1v1h-1zM12,14h1v1h-1zM14,14h1v1h-1zM16,14h1v1h-1zM17,14h1v1h-1zM18,14h1v1h-1zM19,14h1v1h-1zM21,14h1v1h-1zM23,14h1v1h-1zM24,14h1v1h-1zM25,14h1v1h-1zM26,14h1v1h-1zM31,14h1v1h-1zM0,15h1v1h-1zM2,15h1v1h-1zM5,15h1v1h-1zM7,15h1v1h-1zM13,15h1v1h-1zM14,15h1v1h-1zM17,15h1v1h-1zM18,15h1v1h-1zM19,15h1v1h-1zM20,15h1v1h-1zM21,15h1v1h-1zM23,15h1v1h-1zM25,15h1v1h-1zM26,15h1v1h-1zM27,15h1v1h-1zM28,15h1v1h-1zM1,16h1v1h-1zM4,16h1v1h-1zM6,16h1v1h-1zM7,16h1v1h-1zM8,16h1v1h-1zM9,16h1v1h-1zM11,16h1v1h-1zM12,16h1v1h-1zM13,16h1v1h-1zM14,16h1v1h-1zM15,16h1v1h-1zM17,16h1v1h-1zM20,16h1v1h-1zM21,16h1v1h-1zM22,16h1v1h-1zM24,16h1v1h-1zM26,16h1v1h-1zM28,16h1v1h-1zM31,16h1v1h-1zM0,17h1v1h-1zM2,17h1v1h-1zM3,17h1v1h-1zM7,17h1v1h-1zM9,17h1v1h-1zM12,17h1v1h-1zM13,17h1v1h-1zM14,17h1v1h-1zM15,17h1v1h-1zM16,17h1v1h-1zM17,17h1v1h-1zM18,17h1v1h-1zM20,17h1v1h-1zM23,17h1v1h-1zM29,17h1v1h-1zM30,17h1v1h-1zM31,17h1v1h-1zM2,18h1v1h-1zM3,18h1v1h-1zM4,18h1v1h-1zM5,18h1v1h-1zM6,18h1v1h-1zM7,18h1v1h-1zM8,18h1v1h-1zM10,18h1v1h-1zM11,18h1v1h-1zM15,18h1v1h-1zM18,18h1v1h-1zM20,18h1v1h-1zM21,18h1v1h-1zM23,18h1v1h-1zM24,18h1v1h-1zM25,18h1v1h-1zM26,18h1v1h-1zM27,18h1v1h-1zM29,18h1v1h-1zM1,19h1v1h-1zM3,19h1v1h-1zM7,19h1v1h-1zM11,19h1v1h-1zM12,19h1v1h-1zM14,19h1v1h-1zM19,19h1v1h-1zM20,19h1v1h-1zM21,19h1v1h-1zM22,19h1v1h-1zM23,19h1v1h-1zM25,19h1v1h-1zM26,19h1v1h-1zM27,19h1v1h-1zM32,19h1v1h-1zM1,20h1v1h-1zM2,20h1v1h-1zM6,20h1v1h-1zM7,20h1v1h-1zM8,20h1v1h-1zM10,20h1v1h-1zM13,20h1v1h-1zM14,20h1v1h-1zM16,20h1v1h-1zM21,20h1v1h-1zM24,20h1v1h-1zM26,20h1v1h-1zM28,20h1v1h-1zM29,20h1v1h-1zM31,20h1v1h-1zM32,20h1v1h-1zM0,21h1v1h-1zM3,21h1v1h-1zM4,21h1v1h-1zM7,21h1v1h-1zM9,21h1v1h-1zM10,21h1v1h-1zM12,21h1v1h-1zM13,21h1v1h-1zM14,21h1v1h-1zM17,21h1v1h-1zM18,21h1v1h-1zM19,21h1v1h-1zM20,21h1v1h-1zM23,21h1v1h-1zM26,21h1v1h-1zM27,21h1v1h-1zM29,21h1v1h-1zM31,21h1v1h-1zM2,22h1v1h-1zM3,22h1v1h-1zM4,22h1v1h-1zM5,22h1v1h-1zM6,22h1v1h-1zM7,22h1v1h-1zM8,22h1v1h-1zM11,22h1v1h-1zM12,22h1v1h-1zM13,22h1v1h-1zM15,22h1v1h-1zM17,22h1v1h-1zM20,22h1v1h-1zM21,22h1v1h-1zM23,22h1v1h-1zM24,22h1v1h-1zM28,22h1v1h-1zM30,22h1v1h-1zM31,22h1v1h-1zM2,23h1v1h-1zM4,23h1v1h-1zM5,23h1v1h-1zM7,23h1v1h-1zM10,23h1v1h-1zM11,23h1v1h-1zM14,23h1v1h-1zM15,23h1v1h-1zM16,23h1v1h-1zM17,23h1v1h-1zM18,23h1v1h-1zM21,23h1v1h-1zM23,23h1v1h-1zM24,23h1v1h-1zM28,23h1v1h-1zM29,23h1v1h-1zM0,24h1v1h-1zM1,24h1v1h-1zM5,24h1v1h-1zM6,24h1v1h-1zM7,24h1v1h-1zM9,24h1v1h-1zM10,24h1v1h-1zM12,24h1v1h-1zM13,24h1v1h-1zM17,24h1v1h-1zM19,24h1v1h-1zM20,24h1v1h-1zM21,24h1v1h-1zM22,24h1v1h-1zM23,24h1v1h-1zM24,24h1v1h-1zM25,24h1v1h-1zM26,24h1v1h-1zM27,24h1v1h-1zM28,24h1v1h-1zM31,24h1v1h-1zM32,24h1v1h-1zM8,25h1v1h-1zM9,25h1v1h-1zM14,25h1v1h-1zM15,25h1v1h-1zM16,25h1v1h-1zM18,25h1v1h-1zM21,25h1v1h-1zM24,25h1v1h-1zM28,25h1v1h-1zM30,25h1v1h-1zM31,25h1v1h-1zM0,26h1v1h-1zM1,26h1v1h-1zM2,26h1v1h-1zM3,26h1v1h-1zM4,26h1v1h-1zM5,26h1v1h-1zM6,26h1v1h-1zM8,26h1v1h-1zM10,26h1v1h-1zM12,26h1v1h-1zM13,26h1v1h-1zM14,26h1v1h-1zM15,26h1v1h-1zM16,26h1v1h-1zM17,26h1v1h-1zM24,26h1v1h-1zM26,26h1v1h-1zM28,26h1v1h-1zM29,26h1v1h-1zM31,26h1v1h-1zM0,27h1v1h-1zM6,27h1v1h-1zM9,27h1v1h-1zM10,27h1v1h-1zM11,27h1v1h-1zM12,27h1v1h-1zM13,27h1v1h-1zM14,27h1v1h-1zM17,27h1v1h-1zM18,27h1v1h-1zM21,27h1v1h-1zM24,27h1v1h-1zM28,27h1v1h-1zM31,27h1v1h-1zM0,28h1v1h-1zM2,28h1v1h-1zM3,28h1v1h-1zM4,28h1v1h-1zM6,28h1v1h-1zM8,28h1v1h-1zM9,28h1v1h-1zM12,28h1v1h-1zM15,28h1v1h-1zM18,28h1v1h-1zM20,28h1v1h-1zM24,28h1v1h-1zM25,28h1v1h-1zM26,28h1v1h-1zM27,28h1v1h-1zM28,28h1v1h-1zM29,28h1v1h-1zM32,28h1v1h-1zM0,29h1v1h-1zM2,29h1v1h-1zM3,29h1v1h-1zM4,29h1v1h-1zM6,29h1v1h-1zM10,29h1v1h-1zM11,29h1v1h-1zM12,29h1v1h-1zM13,29h1v1h-1zM16,29h1v1h-1zM17,29h1v1h-1zM19,29h1v1h-1zM24,29h1v1h-1zM26,29h1v1h-1zM27,29h1v1h-1zM28,29h1v1h-1zM29,29h1v1h-1zM0,30h1v1h-1zM2,30h1v1h-1zM3,30h1v1h-1zM4,30h1v1h-1zM6,30h1v1h-1zM10,30h1v1h-1zM12,30h1v1h-1zM13,30h1v1h-1zM14,30h1v1h-1zM16,30h1v1h-1zM18,30h1v1h-1zM19,30h1v1h-1zM22,30h1v1h-1zM24,30h1v1h-1zM26,30h1v1h-1zM27,30h1v1h-1zM28,30h1v1h-1zM30,30h1v1h-1zM0,31h1v1h-1zM6,31h1v1h-1zM9,31h1v1h-1zM11,31h1v1h-1zM13,31h1v1h-1zM17,31h1v1h-1zM19,31h1v1h-1zM20,31h1v1h-1zM21,31h1v1h-1zM23,31h1v1h-1zM24,31h1v1h-1zM25,31h1v1h-1zM26,31h1v1h-1zM0,32h1v1h-1zM1,32h1v1h-1zM2,32h1v1h-1zM3,32h1v1h-1zM4,32h1v1h-1zM5,32h1v1h-1zM6,32h1v1h-1zM8,32h1v1h-1zM9,32h1v1h-1zM10,32h1v1h-1zM14,32h1v1h-1zM15,32h1v1h-1zM17,32h1v1h-1zM18,32h1v1h-1zM20,32h1v1h-1zM21,32h1v1h-1zM22,32h1v1h-1zM23,32h1v1h-1zM24,32h1v1h-1zM32,32h1v1h-1z" fill="#0F1923"/></svg><span data-t="qr"></span></a>
     <h1><span>ECHO StartUp</span><span>Market 2026</span></h1>
     <p class="lead" data-t="lead"></p>
     <p class="by" data-t="by"></p>
@@ -182,6 +191,7 @@ const T = {
   ko:{
     lead:"선배 ECHO StartUp 모의창업 팀들이 직접 기획하고 만든 제품을 한곳에 모았습니다. 둘러보고, 영상을 공유하고, 설문에 답하고, 구매해 주세요. 여러분의 한 번의 클릭이 팀의 실제 마케팅 성과(traction)가 됩니다.",
     by:"주최 주식회사 플래닛에코 · KoreaPEN(펜월드와이드협회 한국본부)",
+    qr:"스캔해서 바로가기",
     nTitle:"구매하기 버튼 안내", nEg:"예:", nChip:"월구독 · 연간구독 · 광고 서비스",
     nBody:"구매 버튼은 PEN Worldwide 실습기업(PE) 거래 시스템으로 연결됩니다. 전 세계 40개국 학생 기업들이 같은 방식으로 거래합니다. 교육용 모의 거래입니다.",
     s1:"둘러보기",s1d:"제품 상세 페이지에서 무엇을 만드는지 확인해요.",
@@ -204,6 +214,7 @@ const T = {
   en:{
     lead:"Products planned and built by our senior ECHO StartUp teams, gathered in one place. Browse, share their videos, take a quick survey, and buy. Every click becomes real marketing traction for these student founders.",
     by:"Hosted by PlanetEcho Co., Ltd. and KoreaPEN (Korean Center of PEN Worldwide)",
+    qr:"Scan to open the market",
     nTitle:"About the Buy buttons", nEg:"e.g.,", nChip:"Monthly · Annual · Advertising",
     nBody:"The Buy buttons link to the PEN Worldwide Practice Enterprise (PE) trading system, where student companies in 40 countries trade the same way. All transactions are simulated for educational purposes.",
     s1:"Browse",s1d:"Open each product page to see what the team has built.",
@@ -300,6 +311,12 @@ const TEAMS = [
    survey:"https://docs.google.com/forms/d/e/1FAIpQLSfPKx4pbRMSUrc7GdrNMbrNRmRFVntTqA4bYxyh58YJJwnFJA/viewform"}
 ];
 
+// 노출 순서: 고정 4팀 먼저, 나머지는 페이지를 열 때마다 무작위
+const PINNED = ["KR01SUWON05","KR01ES02","KR01ES01","KR01SUWON01"]; // UNEXPOSED, Sharing, Personalizer, PathLOG
+const REST = TEAMS.filter(x => !PINNED.includes(x.code));
+for (let i = REST.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [REST[i], REST[j]] = [REST[j], REST[i]]; }
+const ORDERED = [...PINNED.map(c => TEAMS.find(x => x.code === c)).filter(Boolean), ...REST];
+
 let lang = "ko", filter = "all";
 try{
   const q = new URLSearchParams(location.search).get("lang");
@@ -320,7 +337,7 @@ function render(){
   document.querySelectorAll(".lang button").forEach(b => b.setAttribute("aria-pressed", b.dataset.l===lang));
   document.querySelectorAll(".filter button").forEach(b => { b.textContent = t[b.dataset.f]; b.setAttribute("aria-pressed", b.dataset.f===filter); });
 
-  const list = TEAMS.filter(x => filter==="all" || x.city===filter);
+  const list = ORDERED.filter(x => filter==="all" || x.city===filter);
   if(!list.length){ document.getElementById("stalls").innerHTML = `<p class="empty">${t.noTeams}</p>`; return; }
   document.getElementById("stalls").innerHTML = list.map(x => `
   <article class="stall" id="${x.code}" style="--c:${x.c};--c2:${x.c2}">
